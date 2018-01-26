@@ -4,7 +4,6 @@
 README.md:
 	echo "**Justo's Unix submission at**" > README.md
 	date >> README.md
-	echo ""
-	echo""
+	echo "  "
 	echo "Lines in guessinggame.sh:  " >> README.md
 	cat guessinggame.sh | wc -l >> README.md
